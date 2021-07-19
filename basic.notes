@@ -3,3 +3,19 @@ Github commands:
 git add - A, or git add .
 git commit -m "message about what last changes were"
 git push origin main (pushes file to github cloud)
+
+mkdir - create new folder
+
+ls - print contents of folder
+
+cd - move up folder
+
+
+/* CSS COMMANDS */
+
+font-size: The size of the font in the element.
+font-weight:a sets the font to lighter, normal, or bold; etc.
+color: sets the text color for the element. Applied directly to element.
+
+<!-- HTML COMMANDS -->
+
