@@ -1,14 +1,16 @@
-Github commands: 
+Gitbash commands: 
 
     git add - A, or git add .
     git commit -m "message about what last changes were"
     git push origin main (pushes file to github cloud)
 
-    mkdir - create new folder.
+    mkdir <directory name> - create new folder/directory.
+    ls - print contents of folder/directory.
+    cd - move up one(back) folder/directory.
+    cd <filename> - move to that file
+    touch <filename> - creates new file
+    rm <filename> - removes an existing file in the current directory
 
-    ls - print contents of folder.
-
-    cd - move up folder.
 
 
 /* CSS COMMANDS */
