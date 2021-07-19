@@ -1,0 +1,5 @@
+Github commands: 
+
+git add - A, or git add .
+git commit -m "message about what last changes were"
+git push origin main (pushes file to github cloud)
