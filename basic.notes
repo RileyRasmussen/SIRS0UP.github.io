@@ -1,21 +1,39 @@
 Github commands: 
 
-git add - A, or git add .
-git commit -m "message about what last changes were"
-git push origin main (pushes file to github cloud)
+    git add - A, or git add .
+    git commit -m "message about what last changes were"
+    git push origin main (pushes file to github cloud)
 
-mkdir - create new folder
+    mkdir - create new folder.
 
-ls - print contents of folder
+    ls - print contents of folder.
 
-cd - move up folder
+    cd - move up folder.
 
 
 /* CSS COMMANDS */
 
-font-size: The size of the font in the element.
-font-weight:a sets the font to lighter, normal, or bold; etc.
-color: sets the text color for the element. Applied directly to element.
+    font-size: The size of the font in the element.
+    font-weight:a sets the font to lighter, normal, or bold; etc.
+    color: sets the text color for the element. Applied directly to element.
+
+    float: The float property takes an element 
+    that wants to occupy 100% of its parent's width by default (known in CSS as a block element) 
+    and pushes everything that follows it below it, allowing other elements to come 
+    alongside of it or wrap around it (known in CSS as inline elements).
+
+    * = universal selector.
+
+    <br/> = line break. Creates a manual line break for inline code, such as <a> elements.
+
+    &copy; = creates copyright symbol.
+
+    line-height: The line-height 
+    property assigns how much vertical space should be between lines of text content.
+
+    text-align: The text-align property lets us align the text to the left, right, 
+    center, or justified. By default, it is left-aligned.
+
 
 <!-- HTML COMMANDS -->
 
