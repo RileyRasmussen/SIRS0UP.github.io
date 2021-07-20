@@ -48,7 +48,7 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-/* styling the footer*/
+/*BEGIN Footer style sheet*/
     footer {
         background: #fce138;
         width: 100%;
@@ -70,8 +70,9 @@
     footer a {
         color: #024e76;
     }
+/*END Footer style sheet*/
 
-/*Hero Style Start*/
+/*BEGIN Hero Style Sheet*/
     .hero {
         background-image: url("../images/hero-bg.jpg");
         height: 600px;
@@ -79,9 +80,9 @@
         background-position: center;
         position: relative;
     }
-/*Hero Style End*/
+/*END Hero Style Sheet*/
 
-/*Sign up page box*/
+/*Sign up box formatting*/
     .hero-form {
         background-color: #fce138;
         padding: 20px;
@@ -125,6 +126,31 @@
         padding: 10px 20px;
         font-size: 16px;
     }
+/*END sign up box formatting*/
+
+/*BEGIN formatting what-we-do content*/
+    .intro {
+        text-align: center;
+    }
+
+    .intro h2 {
+        /* add this alongside your other declarations*/
+        display: inline-block;
+        font-size: 55px;
+        color: #024e76;
+        margin-bottom: 35px;
+        padding: 0 100px 20px 100px;
+        border-bottom: 3px solid;
+        border-color: #fce138;
+    }
+
+    .intro p {
+        margin: 0 auto;
+        line-height: 1.7;
+        color: #39a6b2;
+        width: 80%;
+        font-size: 20px;
+      }
 
 /*SECTION*/
     section {
