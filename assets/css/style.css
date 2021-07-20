@@ -36,11 +36,11 @@
         display: inline;
     }
 
-    header nav ul li a {
-        margin: 0 30px;
-        font-weight: lighter;
-        font-size: 22px;
-    }
+        header nav ul li a {
+            margin: 0 30px;
+            font-weight: lighter;
+            font-size: 22px;
+        }   
 
 /* apply styles and color to body */
     body {
@@ -54,18 +54,18 @@
         width: 100%;
         padding: 40px 35px;
     }
-    footer h2 {
-        display: inline;
-        color: #024e76;
-        font-size: 30px;
-        margin: 0;
-    }
+        footer h2 {
+            display: inline;
+            color: #024e76;
+            font-size: 30px;
+            margin: 0;
+        }
 
-    footer div {
-        float: right;
-        line-height: 1.5;
-        text-align: right;
-    }
+        footer div {
+            float: right;
+            line-height: 1.5;
+            text-align: right;
+        }
 
     footer a {
         color: #024e76;
@@ -83,77 +83,112 @@
 /*END Hero Style Sheet*/
 
 /*Sign up box formatting*/
-    .hero-form {
-        background-color: #fce138;
-        padding: 20px;
-        width: 500px;
-        color: #024e76;
-        border-style: solid;
-        border-width: 3px;
-        border-color: #024e76;
-        position: absolute;
-        bottom: 120px;
-        right: 140px;
-    }
+        .hero-form {
+            background-color: #fce138;
+            padding: 20px;
+            width: 500px;
+            color: #024e76;
+            border-style: solid;
+            border-width: 3px;
+            border-color: #024e76;
+            position: absolute;
+            bottom: 120px;
+            right: 140px;
+        }
 
-    .hero-form p {
-        margin: 5px 0 15px 0;
-    }
+        .hero-form p {
+            margin: 5px 0 15px 0;
+        }
 
-    .hero-form h3 {
-        font-size: 24px;
-        margin: 0;
-    }
+        .hero-form h3 {
+            font-size: 24px;
+            margin: 0;
+        }
 
-    .form-input {
-        border: 1px solid #024e76;
-        display: block;
-        padding: 7px 15px;
-        font-size: 16px;
-        color: #024e76;
-        width: 100%;
-        margin-bottom: 15px;
-    }
+        .form-input {
+            border: 1px solid #024e76;
+            display: block;
+            padding: 7px 15px;
+            font-size: 16px;
+            color: #024e76;
+            width: 100%;
+            margin-bottom: 15px;
+        }
 
-    .hero-form label {
-        margin: 5px 5px;
-    }
+        .hero-form label {
+            margin: 5px 5px;
+        }
 
-    .hero-form button {
-        color:#fce138;
-        background-color: #024e76;
-        border: none;
-        padding: 10px 20px;
-        font-size: 16px;
-    }
+        .hero-form button {
+            color:#fce138;
+            background-color: #024e76;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
 /*END sign up box formatting*/
 
-/*BEGIN formatting what-we-do content*/
+/*BEGIN formatting 'what-we-do' content*/
     .intro {
         text-align: center;
     }
 
-    .intro h2 {
-        /* add this alongside your other declarations*/
-        display: inline-block;
+        .intro p {
+            margin: 0 auto;
+            line-height: 1.7;
+            color: #39a6b2;
+            width: 80%;
+            font-size: 20px;
+        }
+/*END formatting for 'what-we-do' content*/
+
+/*BEGIN formatting for 'what-you-do' content*/
+      .steps {
+          text-align: center;
+          background: #fce138;
+      }
+
+      .steps div {
+          margin-bottom: 80px;
+      }
+
+      .steps img {
+          width: 15%;
+          margin: 10px 0;
+      }
+
+      .steps h3 {
+          color: #024e76;
+          font-size: 46px;
+          margin-top:10px;
+      }
+
+      .steps p {
+          color: #39a6b2;
+          font-size: 23px;
+      }
+/*END formatting for 'what-you-do' content*/
+
+/*SECTION*/
+
+    section {
+        padding: 60px; 
+    }
+
+    .section-title {
         font-size: 55px;
         color: #024e76;
         margin-bottom: 35px;
         padding: 0 100px 20px 100px;
+        display: inline-block;
         border-bottom: 3px solid;
-        border-color: #fce138;
     }
-
-    .intro p {
-        margin: 0 auto;
-        line-height: 1.7;
-        color: #39a6b2;
-        width: 80%;
-        font-size: 20px;
-      }
-
-/*SECTION*/
-    section {
-    padding: 60px;
+  
+    .primary-border {
+    border-color: #fce138;
+    }
+  
+    .secondary-border {
+    border-color: #39a6b2;
+    }
     
-}
