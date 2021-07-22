@@ -3,6 +3,8 @@ Gitbash commands:
     git add - A, or git add .
     git commit -m "message about what last changes were"
     git push origin main (pushes file to github cloud)
+    git clone - clones github repo to local folder
+    git pull - pulls from a non-local repo into a local folder
 
     mkdir <directory name> - create new folder/directory.
     ls - print contents of folder/directory.
@@ -10,13 +12,18 @@ Gitbash commands:
     cd <filename> - move to that file
     touch <filename> - creates new file
     rm <filename> - removes an existing file in the current directory
-
+    cp <filename> <folder destination> - copy file into destination folder
+    rm -r <foldername> - remove folder and everything in it
+    code . - pull up all files in current directory
+    sudo (for mac)- overrides commands on a computer *DANGEROUS IF YOU DON'T KNOW WHAT YOUR DOING*
 
 
 /* CSS COMMANDS */
 
     font-size: The size of the font in the element.
+
     font-weight:a sets the font to lighter, normal, or bold; etc.
+    
     color: sets the text color for the element. Applied directly to element.
 
     float: The float property takes an element 
@@ -36,6 +43,48 @@ Gitbash commands:
     text-align: The text-align property lets us align the text to the left, right, 
     center, or justified. By default, it is left-aligned.
 
+    margin: # # # # = numbers are used clockwise; top, right, bottom, left.
+
+    overflow: (word) = adds block formatting content to the element.
+
+    float: will 'float' image in an element, allowing element content to wrap around it.
+
+    Clear: must corrispond with 'float' command.
+
 
 <!-- HTML COMMANDS -->
 
+<a href="#(makes link that goes nowhere)">(DESCRIPTION OF LINK)</a> - link to outside source (link)
+
+EXAMPLE LAYOUT
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Second HTML</title>
+ </head>
+ <body>
+    <header>
+        <h1> (h1-h7) </h1>
+    </header>
+    <main>
+        <section>
+            <h2>portfolio</h2>
+            <img src="https://placehold.it/50x50.png" alt="placeholder image">
+        </section>
+
+        <section>
+            <h2>Contact Info</h2>
+            <ul> (unordered list)
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+    </main>
+ </body>
+ </html>
+
+
+<!-- JAVASCRIPT COMMANDS -->
