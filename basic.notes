@@ -45,7 +45,8 @@ Gitbash commands:
 
     margin: # # # # = numbers are used clockwise; top, right, bottom, left.
 
-    overflow: (word) = adds block formatting content to the element.
+    overflow: (word) = allows the parent element to display its CSS properties by stretching its
+     dimensions to physically contain its child elements
 
     float: will 'float' image in an element, allowing element content to wrap around it.
 
@@ -54,7 +55,21 @@ Gitbash commands:
 
 <!-- HTML COMMANDS -->
 
-<a href="#(makes link that goes nowhere)">(DESCRIPTION OF LINK)</a> - link to outside source (link)
+    <a href="#(makes link that goes nowhere)">(DESCRIPTION OF LINK)</a> = link to outside source (link)
+
+    <article> = element to help encapsulate related content on the page,
+    allowing the browser and screen readers to have an easier time reading the content.
+
+    <iframe> = An <iframe>, which means inline frame, nests browsing content and embeds an HTML page into the current page.
+
+    <br /> = creates a line break in a series of text.
+
+    mailto: = The <a href="mailto:info@runbuddy.io"> element uses the mailto: prefix in the anchor tag's href attribute to instruct the browser 
+    to open the default mail client application upon clicking the link. Then it populates the address field with the email address in the href value.
+
+
+
+HTML:
 
 EXAMPLE LAYOUT
 
