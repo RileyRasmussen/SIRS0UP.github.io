@@ -5,6 +5,12 @@ Gitbash commands:
     git push origin main (pushes file to github cloud)
     git clone - clones github repo to local folder
     git pull - pulls from a non-local repo into a local folder
+    git branch displays a list of all the branches in the repo and highlights the branch you're in, which is called the active branch or working directory.
+    git branch <branch-name> creates a new branch (replace <branch-name> with the name you want to give the branch) that is a copy of the current active branch. 
+        Note that after you commit changes to the new branch, the commit history of these two branches will diverge, and the branches will no longer be in sync with each other.
+    git checkout <branch-name> lets you navigate among different versions (branches) of the codebase by switching into a new active branch.
+    git checkout -b <branch-name> combines the previous two commands by creating a new branch (git branch <branch-name>) 
+        AND moving you into that branch (git checkout <branch-name>) all at once!
 
     mkdir <directory name> - create new folder/directory.
     ls - print contents of folder/directory.
