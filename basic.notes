@@ -64,6 +64,17 @@ Gitbash commands:
 
     Clear: must corrispond with 'float' command.
 
+    flex-grow is a numeric value that helps determine how much of the flexbox's unused space can be distributed among its children. 
+    This number is used as a ratio, alongside the other child's flex-grow value. The higher the number, the more unused space that 
+    child element will be given.
+
+    flex-shrink helps determine how to size the flexbox's children when the flexbox container shrinks. 
+    Although this property can be handy, it isn't used as often as flex-grow.
+
+    flex-basis works similarly to setting a width value for a child element, but it acts as more of a baseline value that 
+    at the very least will let the child be that size no matter what—and grow or shrink accordingly.
+
+
 
 <!-- HTML COMMANDS -->
 
