@@ -18,6 +18,10 @@ Gitbash commands:
     The 'git merge' operation, on the other hand, updates the active branch with changes from the target branch, 
         which is the branch that contains the changes we need to add.
 
+    If you can't switch branches due to uncommitted work or you simply want to discard changes that don't need to be staged in Git, 
+    you can use the command git checkout -- <path/to/file> to reset individual files. For example, git checkout -- index.html 
+    would reset index.html to its most recent commit.
+
     mkdir <directory name> - create new folder/directory.
     ls - print contents of folder/directory.
     cd - move up one(back) folder/directory.
