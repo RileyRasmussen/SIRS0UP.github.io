@@ -5,12 +5,22 @@ Gitbash commands:
     git push origin main (pushes file to github cloud)
     git clone - clones github repo to local folder
     git pull - pulls from a non-local repo into a local folder
+
     git branch displays a list of all the branches in the repo and highlights the branch you're in, which is called the active branch or working directory.
     git branch <branch-name> creates a new branch (replace <branch-name> with the name you want to give the branch) that is a copy of the current active branch. 
         Note that after you commit changes to the new branch, the commit history of these two branches will diverge, and the branches will no longer be in sync with each other.
     git checkout <branch-name> lets you navigate among different versions (branches) of the codebase by switching into a new active branch.
     git checkout -b <branch-name> combines the previous two commands by creating a new branch (git branch <branch-name>) 
         AND moving you into that branch (git checkout <branch-name>) all at once!
+
+    The 'git fetch' command updates the local repo with any changes in the remote repo since the last fetch command. 
+        A use case for git fetch would be to look at a team member's feature branch for a review process or to help find a bug.
+    The 'git merge' operation, on the other hand, updates the active branch with changes from the target branch, 
+        which is the branch that contains the changes we need to add.
+
+    If you can't switch branches due to uncommitted work or you simply want to discard changes that don't need to be staged in Git, 
+    you can use the command git checkout -- <path/to/file> to reset individual files. For example, git checkout -- index.html 
+    would reset index.html to its most recent commit.
 
     mkdir <directory name> - create new folder/directory.
     ls - print contents of folder/directory.
@@ -57,6 +67,17 @@ Gitbash commands:
     float: will 'float' image in an element, allowing element content to wrap around it.
 
     Clear: must corrispond with 'float' command.
+
+    flex-grow is a numeric value that helps determine how much of the flexbox's unused space can be distributed among its children. 
+    This number is used as a ratio, alongside the other child's flex-grow value. The higher the number, the more unused space that 
+    child element will be given.
+
+    flex-shrink helps determine how to size the flexbox's children when the flexbox container shrinks. 
+    Although this property can be handy, it isn't used as often as flex-grow.
+
+    flex-basis works similarly to setting a width value for a child element, but it acts as more of a baseline value that 
+    at the very least will let the child be that size no matter what—and grow or shrink accordingly.
+
 
 
 <!-- HTML COMMANDS -->
